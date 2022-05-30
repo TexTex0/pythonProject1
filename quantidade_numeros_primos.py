@@ -1,8 +1,8 @@
 #ESSE CONTADOR PRETENDE MOSTRAR AO USUÁRIO A QUANTIDADE DE NÚMEROS PRIMOS EXISTENTES EM UM INTERVALO DETERMINADO.
-#PARA ISSO, O USUÁRIO DEVE INFORMAR O NÚMERO INICIAL E FINAL DA CONTAGEM.
+#PARA ISSO, ELE DEVE INFORMAR O NÚMERO INICIAL E FINAL DA CONTAGEM. EX.: O USUÁRIO DESEJA SABER QUAIS SÃO OS NÚMEROS PRIMOS ENTRE 1 E 20 OU ENTRE 5 E 200.
 
-a = int(input('Vc quer que eu comece a contar a partir de qual número? Favor digite um número: '))
-b = int(input('Onde vc quer que termine a contagem? Favor digitar um número: '))
+a = int(input('Digite um número para iniciar a contagem: '))
+b = int(input('Agora me diga o número vocẽ quer que termine a contagem: '))
 qtdNumPrimos = 0
 for num in range(a,b):
     div = 0
