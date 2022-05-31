@@ -8,7 +8,6 @@ for num in range(a,b):
     div = 0
     for x in range(1, num + 1):
         resto = num % x
-        #print(x,resto)
         if resto == 0:
             div += 1
 
