@@ -16,4 +16,4 @@ for num in range(a,b):
         qtdNumPrimos = qtdNumPrimos + 1
         print(num)
 print('Existem {} '.format(qtdNumPrimos) + 'números primos entre {}'.format(a)+' e {}'.format(b))
-print('\nObrigado por utilizar esse programa. Espero que ele tenha te ajudado com o que você precisava. Bons estudos!!')
+print('\nObrigado por utilizar esse programa. Espero que ele tenha te ajudado com o que você precisa. Bons estudos!!')
